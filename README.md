@@ -11,7 +11,8 @@ Building a machine learning with AI
 
 
 Project Task
-The project goal is to operationalize a pre-built SKLearn Machine Learning Microservice Application using Kubernetes (K8s), which is an open-source system for automating deployment, scaling, and management of containerized applications by doing the following:
+The project goal is to operationalize a pre-built SKLearn Machine Learning Microservice Application using Kubernetes (K8s), which is an open-source system for automating deployment, scaling, and management of containerized applications by doing the following
+
 Kubernetes is open source which gives you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly and seamlessly move workloads to where it matters to you.
 
 Test project code using hadolint
@@ -33,6 +34,7 @@ Github repository
 Use CircleCI as a CICD tool
 
 Technology dependencies used for the deployment, automaton and integration process are below
+
 This dependencies resides in the requirements.txt file but we have name a few below
 
 python 3.7
@@ -52,12 +54,14 @@ Kubernetes
 CircleCI
 
 Setup the Environment
+
 •	Create a virtualenv and activate it
 
 •	Run make install to install the necessary dependencies
 
 
 Running app.py
+
 1.	Standalone: python app.py
 
 2.	Run in Docker: ./run_docker.sh
